@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="aboutus.xsl" type="text/xsl" ?>
+
+
+<aboutus>
+<body>
+<content>
+<img>
+</img>
+<p></p>
+</content>
+<footer>
+</footer>
+</body>
+
+</aboutus>

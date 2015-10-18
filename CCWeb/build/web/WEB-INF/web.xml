@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+
+    <servlet>
+        <servlet-name>HomeServlet</servlet-name>
+        <servlet-class>HomeServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>PreviewServlet</servlet-name>
+        <servlet-class>PreviewServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AboutServlet</servlet-name>
+        <servlet-class>AboutServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>GameServlet</servlet-name>
+        <servlet-class>GameServlet</servlet-class>
+    </servlet>
+      <welcome-file-list>
+        <welcome-file>AboutServlet</welcome-file>
+    </welcome-file-list>
+    
+    <servlet-mapping>
+        <servlet-name>HomeServlet</servlet-name>
+        <url-pattern>/HomeServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>PreviewServlet</servlet-name>
+        <url-pattern>/PreviewServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AboutServlet</servlet-name>
+        <url-pattern>/AboutServlet</url-pattern>
+    </servlet-mapping>
+       <servlet-mapping>
+        <servlet-name>GameServlet</servlet-name>
+        <url-pattern>/GameServlet</url-pattern>
+    </servlet-mapping>
+      <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

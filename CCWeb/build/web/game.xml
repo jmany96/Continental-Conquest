@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="game.xsl" type="text/xsl" ?>
+
+
+<game>
+<body>
+<content>
+<applet>
+</applet>
+</content>
+<footer>
+</footer>
+</body>
+
+</game>

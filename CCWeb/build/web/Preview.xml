@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Preview.xsl"?>
+
+<Images>
+ <Image id="1">
+	  
+	<picture>  <img>worldPic.png</img>   </picture>
+	 
+  </Image>
+  
+  <Image id="2">
+	  
+	 <picture> <img>eurPic.png</img>  </picture>
+	 
+  </Image>
+  <Image id="3">
+	  
+	<picture>  <img>amPic.png</img>   </picture>
+	 
+  </Image>
+  
+  <Image id="4">
+	  
+	<picture>  <img>asPic.png</img>  </picture>
+	 
+  </Image>
+  
+  <Image id="5">
+	  
+	<picture>  <img>ocPic.png</img>  </picture>
+	 
+  </Image>
+  
+  <Image id="6">
+	  
+	<picture>  <img>qPic.png</img>   </picture>
+	 
+  </Image>
+  
+</Images>
